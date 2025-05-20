@@ -4,14 +4,15 @@
 export function Hero() {
     return (
         <>
-            <header className="flex items-center justify-between h-[100px] bg-white shadow-md py-10">
-                <h1 className="text-orange-500 text-2xl font-bold ml-10">
+            <header className="fixed top-0 left-0 w-full z-50 flex items-center justify-between h-[100px] bg-white shadow-md py-10">
+
+                <a  className="text-orange-500 text-2xl font-bold ml-10" href="#inicio">
                     Sorriso Feliz <span className="text-lg text-gray-400">Clínica</span>
-                </h1>
+                </a>
                 <nav className="flex items-center gap-10 mr-10">
                     <a
                         className="font-medium text-gray-500 hover:text-orange-500 transition-colors duration-200"
-                        href="" >Tratamentos</a>
+                        href="#tratamentos" >Tratamentos</a>
                     <a
                         className="font-medium text-gray-500 hover:text-orange-500 transition-colors duration-200"
                         href=""> Depoimento</a>
@@ -31,10 +32,10 @@ export function Hero() {
 
 
             <section>
-                <div className="flex items-center justify-between h-[500px] px-20">
+                <div className="flex items-center justify-between h-[500px] px-20 mt-20">
 
                     <div className="flex flex-col justify-center h-full mt-20">
-                        <h2 className="text-5xl text-gray-700 font-bold w-[600px]">
+                        <h2 id="inicio" className="text-5xl text-gray-700 font-bold w-[600px]">
                             Seu sorriso, <span className="text-orange-500">nossa prioridade</span>
                         </h2>
                         <p className="text-lg text-gray-500 mt-4 w-[500px]">
