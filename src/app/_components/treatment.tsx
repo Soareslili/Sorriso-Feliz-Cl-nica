@@ -2,7 +2,7 @@ export function Treatment() {
 
 
     return (
-        <section className="flex flex-col items-center justify-between h-[400px] px-20 mt-20">
+        <section className=" flex flex-col items-center justify-between px-20 mt-20 mb-40 ">
             <div className="flex flex-col justify-center items-center h-full mt-20 text-center px-4">
                 <h2 id="tratamentos" className="text-4xl text-gray-700 font-bold max-w-xl">
                     Nossos Tratamentos

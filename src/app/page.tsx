@@ -1,5 +1,8 @@
 import { Hero } from "./_components/hero";
 import { Treatment } from "./_components/treatment";
+import { Testimony } from "./_components/testimony";
+
+
 
 
 export default function Home() {
@@ -8,6 +11,7 @@ export default function Home() {
     <main>
       <Hero />
       <Treatment/>
+      <Testimony />
     </main>
   )
 
