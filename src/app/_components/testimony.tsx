@@ -1,4 +1,4 @@
-// components/Testimony.tsx
+
 'use client';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
