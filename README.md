@@ -14,12 +14,20 @@ Este é um site institucional para a clínica odontológica **Sorriso Feliz**, d
 ## 📸 Funcionalidades
 
 - Hero atrativo com chamada para ação
-- Menu de navegação com âncoras para seções da página
-- Botão de agendamento com animação de hover
-- Seções para tratamentos, depoimentos, localização e contato
-- Avaliação com estrelas e número de pacientes atendidos
-- Layout responsivo (mobile, tablet e desktop)
 
+- Menu de navegação responsivo com âncoras para seções da página
+
+- Botão de agendamento com animação de hover
+
+- Seções para tratamentos, depoimentos, localização, contato e horário de funcionamento
+
+- Avaliação com estrelas e número de pacientes atendidos
+
+- Footer com informações de contato, redes sociais e horário de funcionamento
+
+- Mapa de localização integrado para facilitar o acesso
+
+- Layout responsivo para mobile, tablet e desktop
 ## 🖼️ Layout
 
 A interface foi construída com foco em **design limpo**, **tipografia clara** e **cores suaves**, reforçando a identidade da clínica. Elementos visuais transmitem confiança e acolhimento.
