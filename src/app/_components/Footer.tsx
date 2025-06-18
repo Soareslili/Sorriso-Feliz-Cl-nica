@@ -43,7 +43,7 @@ export function Footer() {
                             <p>Sábado: <span className="ml-2">9:00 - 18:00</span></p>
                             <p>Domingo: <span className="ml-2">Fechado</span></p>
 
-                            <a href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20os%20doces&type=phone_number&app_absent=0"
+                            <a href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20agendar%20um%20horário.!&type=phone_number&app_absent=0"
                                 className="mt-4 inline-flex items-center bg-orange-500 hover:bg-orange-300 text-white px-4 py-2 rounded transition-transform duration-300 hover:scale-105">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
                                     strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
@@ -102,14 +102,14 @@ export function Footer() {
 
 
             <a
-                href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20os%20doces&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20os%20trabalho&type=phone_number&app_absent=0"
                 className="fixed bottom-4 right-4 z-[99] group"
                 target="_blank"
                 rel="noopener noreferrer"
             >
                 <FaWhatsapp className="w-[50px] h-[50px] text-green-500 transition-transform duration-300 group-hover:scale-110" />
                 <span className="absolute right-14 top-1 w-[140px] px-3 py-2 rounded-lg text-center text-sm font-medium bg-white text-green-600 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    Conheça nossos doces
+                    Conheça nossos Trabalho
                 </span>
             </a>
         </>

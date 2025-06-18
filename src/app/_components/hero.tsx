@@ -14,12 +14,12 @@ export function Hero() {
             <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md h-[80px]">
                 <div className="flex w-full max-w-7xl mx-auto items-center justify-between h-full px-4">
 
-                    {/* Logo */}
+                  
                     <a className="text-orange-500 text-2xl font-bold" href="#inicio">
                         Sorriso Feliz <span className="text-lg text-gray-400">Clínica</span>
                     </a>
 
-                    {/* Botão menu mobile */}
+                
                     <button
                         onClick={() => setMenuOpen(!menuOpen)}
                         className="md:hidden text-3xl text-[#FF3385] focus:outline-none"
@@ -28,13 +28,13 @@ export function Hero() {
                         &#9776;
                     </button>
 
-                    {/* Menu Desktop */}
+             
                     <nav className="hidden md:flex gap-6 items-center">
                         <a className="text-gray-500 hover:text-orange-500 transition-colors duration-200" href="#tratamentos">Tratamentos</a>
                         <a className="text-gray-500 hover:text-orange-500 transition-colors duration-200" href="#depoimento">Depoimento</a>
                         <a className="text-gray-500 hover:text-orange-500 transition-colors duration-200" href="#contato">Contato</a>
                         <a
-                            href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20os%20doces&type=phone_number&app_absent=0"
+                            href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20agendar%20um%20horário&type=phone_number&app_absent=0"
                             className="p-2 bg-orange-500 text-white rounded-2xl cursor-pointer hover:bg-orange-600 hover:-translate-y-1 transition-all duration-300 ease-in-out"
                         >
                             Agendar Consulta
@@ -76,7 +76,7 @@ export function Hero() {
                             Cuidamos do seu sorriso com tratamentos modernos, equipe especializada e ambiente acolhedor para toda família.
                         </p>
                         <a
-                            href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20os%20doces&type=phone_number&app_absent=0"
+                            href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20agendar%20uma%20consulta&type=phone_number&app_absent=0"
                             className="mt-6 w-40 p-4 bg-orange-500 text-white rounded-2xl hover:bg-orange-600 hover:-translate-y-1 transition-all duration-300 ease-in-out mx-auto md:mx-0"
                         >
                             Agendar Consulta
